@@ -1,0 +1,22 @@
+{
+  "name": "sl",
+  "version": "1.0.0",
+  "description": "commandline tool to add the top 7 results of a query to pocket, it \"search later\" instead of \"serach later\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/toukubo/sl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/toukubo/sl/issues"
+  },
+  "homepage": "https://github.com/toukubo/sl#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
