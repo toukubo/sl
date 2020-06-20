@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "commandline tool to add the top 7 results of a query to pocket, it \"search later\" instead of \"serach later\"",
   "main": "index.js",
+  "bin": {
+    "@your_npm_username/searchlater": "bin/searchlater",
+    "searchlater": "bin/searchlater",
+    "get_access_token": "bin/get_access_token",
+    "get_request_token": "bin/get_request_token"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,6 +23,7 @@
   },
   "homepage": "https://github.com/toukubo/sl#readme",
   "dependencies": {
-    "minimist": "^1.2.0"
+    "minimist": "^1.2.0",
+    "pocket-api": "^0.2.3"
   }
 }
