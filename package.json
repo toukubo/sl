@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/toukubo/sl#readme",
   "dependencies": {
+    "async-shelljs": "^0.1.4",
     "minimist": "^1.2.0",
     "pocket-api": "^0.2.3",
     "shelljs": "^0.8.4"
